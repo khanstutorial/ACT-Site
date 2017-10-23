@@ -4,7 +4,7 @@
 -->
 <html>
 	<head>
-		<title>ACT - Khan's Tutorial</title>
+		<title id="Neighborhood Title"></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -17,7 +17,7 @@
 			<section id="banner">
 				<header class="major">
 					<a href="http://www.khanstutorial.com/"><img src="images/logo3.png" width="50%" ></a>
-					<h1>Ace the ACT</h1>
+					<h1 id="Neighborhood 1"></h1>
 					<p>At KT we believe in providing the best education possible for our students.
 						<br />Our one of a kind program takes care of all of our high school students'
 						<br />needs through weekly meetings with their KT Certified Instructors and Mentors.</p>
@@ -48,8 +48,8 @@
 					<!-- Features -->
 						<section id="three" class="special">
 							<header class="major">
-								<h2>Why do families choose Khan's?</h2>
-								<p>High School is a challenging time for most students. From keeping up with weekly class exams, standardized tests & term papers, to dealing with long commutes to NYC's top high schools, we've all been there. KT's signature HSAP prepares our students in four ways. </p>
+								<h2 id="Neighborhood 2"></h2>
+								<p>High School is a challenging time for most students. From keeping up with weekly class exams, standardized tests & term papers, to dealing with long commutes to NYC's top high schools, we've all been there. KT's signature High School Achievement Program (HSAP) prepares our students in four ways. </p>
 							</header>
 							<section class="features">
 								<section>
@@ -208,6 +208,19 @@
 					&copy; Khan's Tutorial. All rights reserved.
 				</p>
 			</footer>
+
+		<!-- Neighborhood Name -->
+			<script>
+				var a = "[Name of Neighborhood]";
+				var b = "ACT Tutoring - Khan's Tutorial";
+				var d = "ACT Tutoring";
+				var c = a + " " + b;
+				var e = a + " " + d;
+				var g = "Why do " + a + " families choose Khan's?";
+				document.getElementById("Neighborhood Title").innerHTML = c;
+				document.getElementById("Neighborhood 1").innerHTML = e;
+				document.getElementById("Neighborhood 2").innerHTML = g;
+			</script>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
